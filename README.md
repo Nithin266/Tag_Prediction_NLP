@@ -20,14 +20,15 @@ This is a multilabel classification.
 Getting Data
 Data was imported by reading the 80 Train_set, 80 Train_tag and 101 Test_set files. They were then converted to appropriate DataFrames.
 
-Feature Modelling and EDA
-We had 1322 total unique tags and the top 50 of them are visualised below. On average each sample had ~2 tags. image
+# Feature Modelling and EDA
+We had 1322 total unique tags and the top 50 of them are visualised below. On average each sample had ~2 tags.
+https://github.com/OmiWakode/tag-prediction-nlp/raw/main/images/Tags.png
 
 After using the NLTK model for tokenizing and lemmanizing the text data, here's how the dataset looked like.
 
-image
+https://github.com/OmiWakode/tag-prediction-nlp/raw/main/images/dataset.com.png
 
 The data was then vectorisied using ID-DF, and we can visualise the most frequent words/token used.'court' was found to be the most frequent word in the given text data.
 
-image
+https://github.com/OmiWakode/tag-prediction-nlp/raw/main/images/token.png
 
